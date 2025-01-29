@@ -26,10 +26,44 @@ Before you begin, make sure you have the following installed:
 First, clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/zuberkhan01st/O-Auth.2.0_using_FastAPI.git
 
 
----
-- **Demo Screenshot Section**: The image is now referenced from the `assets/images/` folder using a relative path: `![Demo Screenshot](/assets/images/Screenshot%202025-01-29%20183411.png)`.
+cd O-Auth.2.0_using_FastAPI
+
+
+Create a Virtual Environment
+
+Install Required Dependencies
+fastapi==0.68.0
+uvicorn==0.15.0
+requests==2.26.0
+python-dotenv==0.19.0
+
+
+```
+## Project Directory Structure
+
+Below is the directory structure of this project:
+
+```plaintext
+your-repository/
+│
+├── app.py                 
+├── .env               
+├── requirements.txt       
+├── assets/                   
+│   └── images/             
+│       └── Screenshot.png    
+├── README.md                 
+└── venv/                     
+```
+
+## Demo Screenshot
+
+Here is a demo screenshot of the Postman request and response for the `/search_foods` endpoint:
+
+![Demo Screenshot](assets/images/Screenshot%202025-01-29%20183411.png)
+
+> Note: The screenshot is stored in the `assets/images/` folder in the repository.
 
