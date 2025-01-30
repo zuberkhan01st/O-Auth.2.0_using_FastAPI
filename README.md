@@ -47,7 +47,7 @@ python-dotenv==0.19.0
 Below is the directory structure of this project:
 
 ```plaintext
-your-repository/
+O-Auth.2.0_using_FastAPI/
 │
 ├── app.py                 
 ├── .env               
